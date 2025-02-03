@@ -175,11 +175,10 @@ int main() {
             cout << "Invalid input, try again!" << endl;
         } else {
             break;
-        }
-    }
-
+        }}
+    cout << "--------------------------------------------------------------------\n";
+    
     sort_students_by_avg(numberstudent);
-
     if      (choice == 1) show_all_students(numberstudent);
     else if (choice == 2) show_students_by_major(numberstudent);
     else if (choice == 3) show_report_card(numberstudent);
